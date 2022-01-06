@@ -3,7 +3,7 @@ syntax = "proto3";
 package test.v1;
 
 message Test {
-  uint64 Major = 1;
+  uint64 no_major = 1;
   uint64 minor = 2;
   uint64 patch = 3;
 }
