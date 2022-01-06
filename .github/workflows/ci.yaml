@@ -15,4 +15,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: bufbuild/buf-setup-action@v0.6.0
-      - run: buf check breaking --against-input ".git#ref=${{ github.ref }}"
+      - run: buf breaking --against ".git#branch=main"
