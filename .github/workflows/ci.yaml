@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: bufbuild/buf-setup-action@v0.6.0
-      - run: buf check lint
+      - run: buf lint
 
   breaking:
     runs-on: ubuntu-latest
